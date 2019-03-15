@@ -3,3 +3,20 @@
     margin-right: 20px;
     margin-left: 10px
 }
+
+body {
+    background-image: url(http://images2.fanpop.com/images/photos/5400000/Mario-Bros-Wallpaper-super-mario-bros-5431661-1280-768.jpg);
+}
+
+.q1{
+    background-color: #e9ecef;
+    padding:10px;
+    margin-bottom: 0px;
+    
+   
+    
+}
+.input-group-text {
+    
+    border-radius: 0rem;
+}
