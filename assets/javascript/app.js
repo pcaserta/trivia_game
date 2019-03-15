@@ -10,7 +10,7 @@ $(document).ready(function () {
         question: "Which damsel did Mario rescue first?",
         choices: ["Peach", "Pauline", "Daisy", "Zelda"],
     }, {
-        question: "Whos is Mario's arch-nemisis?",
+        question: "Who is Mario's arch-nemisis?",
         choices: ["Chomp-Chomp", "Koopa bros", "Donkey Kong", "Bowser"]
     },{
         question: "Who is Mario's brother?",
@@ -19,7 +19,7 @@ $(document).ready(function () {
         question: "What comapny invented Mario?",
         choices: ["Nintendo", "NES", "SONY", "Activision"]
     },{
-        question: "Before Mario what his original name?",
+        question: "Before Mario, what was he originally called?",
         choices: ["jumpman", "plumber", "redman", "mustachio"]
     },{
         question: "What dinosaur did Mario befriend on his journies?",
