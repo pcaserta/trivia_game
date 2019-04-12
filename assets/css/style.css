@@ -14,22 +14,35 @@ body {
     font-weight: bold;
     padding:10px;
     margin-bottom: 0px;
-    
-    background-color: white;
-    
 
+    background-color:black;
+    color:gold;
+    border: 1px solid gold
+
+}
+.input-group-text input[type=checkbox], .input-group-text input[type=radio] {
+    margin-top: 0;
+    color: red;
 }
 .timer{
-    background-color: white;
-    color:black;
+    background-color:black;
+    color:gold;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     margin-right:970px;
     padding-right:0px;
-    padding-left:10px
+    padding-left:10px;
+    margin-bottom: 0px;
+    
+    
+    
     
 
 }
+#timer{
+    border: 1px solid gold
+}
+
   #start{
       padding: 15px;
       width: 120px;
@@ -44,7 +57,9 @@ body {
 .anwsers{
  
    font-weight: bold;
-   background-color:white
+   background-color: white;
+   color: black;
+   
    
    
 }
