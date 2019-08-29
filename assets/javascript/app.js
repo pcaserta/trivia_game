@@ -70,6 +70,9 @@ $(document).ready(function() {
     }
     console.log(time);
   }
+  $(".submit").on("click", function() {
+    gameover();
+  });
 
   //need to fix this mess***//
   //displays question
@@ -155,7 +158,7 @@ $(document).ready(function() {
     $("#anwser30").text(questions[7].choices[1]);
     $("#anwser31").text(questions[7].choices[2]);
     $("#anwser32").text(questions[7].choices[3]);
-    $(".submit").append("<button id= 'done'>" + "submit" + "</button>");
+    $(".submit").append("<button id= 'done'>" + "SUBMIT" + "</button>");
     //displays timer w/ questions
   }
 
