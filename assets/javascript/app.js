@@ -50,7 +50,7 @@ $(document).ready(function() {
   var time = 60;
   var correct = 0;
   var incorrect = 0;
-  notGuessed = 0;
+  var notGuessed = 0;
 
   //function to start the time
   $("#start").on("click", function() {
