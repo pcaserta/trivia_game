@@ -94,3 +94,7 @@ body {
 .submit {
   padding: 10px;
 }
+
+#done {
+  background-color: green;
+}
