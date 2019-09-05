@@ -149,7 +149,7 @@ $(document).ready(function() {
     $("#anwser27").text(questions[6].choices[2]);
     $("#anwser28").text(questions[6].choices[3]);
 
-    //question 8
+    //question 8 and submit button
     $(".question8").append("<p class ='q1' >" + questions[7].question + "</p>");
     $(".input-group8").append(
       " <div class='input-group-prepend'> <div class='input-group-text rounded-0  bg-white '> <input type='radio' name='eight'  value='0'><p class='anwsers' id='anwser29'></p><input type='radio' name='eight' value='1'><p class='anwsers' id='anwser30'></p><input type='radio' name='eight'  value='1'><p class='anwsers' id='anwser31'></p><input type='radio' name ='eight' value='1'> <p class='anwsers' id='anwser32'></p></div> </div>"
@@ -159,7 +159,6 @@ $(document).ready(function() {
     $("#anwser31").text(questions[7].choices[2]);
     $("#anwser32").text(questions[7].choices[3]);
     $(".submit").append("<button id= 'done'>" + "SUBMIT" + "</button>");
-    //displays timer w/ questions
   }
 
   //check anwser//
