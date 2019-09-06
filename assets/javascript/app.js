@@ -74,7 +74,7 @@ $(document).ready(function() {
     gameover();
   });
 
-  //need to fix this mess***//
+  //need to fix this mess****//
   //displays question
   function displayQuestion() {
     //question1
