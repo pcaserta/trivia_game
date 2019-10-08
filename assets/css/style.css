@@ -36,9 +36,13 @@ body {
   border: 1px solid gold;
 }
 
+.button-container {
+  text-align: center;
+}
 #start {
   padding: 15px;
   width: 120px;
+  display: inline-block;
 }
 .title {
   color: red;
