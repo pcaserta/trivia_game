@@ -57,7 +57,7 @@ $(document).ready(function() {
     intervalId = setInterval(count, 1000);
     $("#start").hide();
     displayQuestion();
-
+    $(".container").addClass("bg-white");
     $(".timer").attr("id", "timer");
     $("#timer").text("Time: " + time);
   });
