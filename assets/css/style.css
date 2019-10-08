@@ -41,13 +41,15 @@ body {
 }
 #start {
   padding: 15px;
-  width: 120px;
+  width: 180px;
   display: inline-block;
+  border-radius: 25px;
+  font-size: 50px;
 }
 .title {
   color: red;
   font-size: 80px;
-  font-weight: 100;
+  padding-top: 50px;
   text-align: center;
 }
 .anwsers {
