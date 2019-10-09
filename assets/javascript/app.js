@@ -59,7 +59,7 @@ $(document).ready(function() {
     displayQuestion();
     $(".container").addClass("bg-white");
     $(".container").addClass("pt-3");
-  
+
     $(".timer").attr("id", "timer");
     $("#timer").text("Time: " + time);
   });
@@ -83,7 +83,7 @@ $(document).ready(function() {
 
     $(".question").append("<p class ='q1' >" + questions[0].question + "</p>");
     $(".input-group").append(
-      "<div class='input-group-prepend'> <div class='input-group-text bg-white border-white '> <input type='radio' name='one'  value='0'><p class='anwsers' id='anwser1'></p><input type='radio' name='one' value='1'><p class='anwsers' id='anwser2'></p><input type='radio' name='one'  value='1'><p class='anwsers' id='anwser3'></p><input type='radio' name ='one' value='1'> <p class='anwsers' id='anwser4'></p></div> </div>"
+      "<div class='input-group-prepend'> <div class='input-group-text bg-white border-white '> <input type='radio' name='one'  value='0'><p class='anwsers' id='anwser1'></p><input type='radio' name='one' value='1'><p class='anwsers' id='anwser2'></p><input type='radio' name='one'  value='1'><p class='anwsers' id='anwser3'></p><input type='radio' name ='one' value='1'> <p class='anwsers' id='anwser4'></p></div>  </div> "
     );
     $("#anwser1").text(questions[0].choices[0]);
     $("#anwser2").text(questions[0].choices[1]);
