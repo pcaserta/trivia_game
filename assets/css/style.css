@@ -7,6 +7,9 @@
 body {
   background-image: url(http://images2.fanpop.com/images/photos/5400000/Mario-Bros-Wallpaper-super-mario-bros-5431661-1280-768.jpg);
 }
+.container {
+  border-radius: 25px;
+}
 
 .q1 {
   font-weight: bold;
@@ -17,11 +20,7 @@ body {
   color: black;
   border: 1px solid black;
 }
-.input-group-text input[type="checkbox"],
-.input-group-text input[type="radio"] {
-  margin-top: 0;
-  color: red;
-}
+
 .timer {
   background-color: white;
   color: black;
@@ -30,10 +29,7 @@ body {
   margin-right: 970px;
   padding-right: 0px;
   padding-left: 10px;
-  margin-bottom: 0px;
-}
-#timer {
-  border: 1px solid gold;
+  margin-bottom: 20px;
 }
 
 .button-container {
@@ -84,9 +80,6 @@ body {
   padding-right: 334px;
 }
 
-.input-group-text {
-  border-radius: 0rem;
-}
 .final {
   text-align: center;
   margin-top: 100px;
@@ -100,8 +93,4 @@ body {
 
 .submit {
   padding: 10px;
-}
-
-#done {
-  background-color: green;
 }

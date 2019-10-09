@@ -58,6 +58,8 @@ $(document).ready(function() {
     $("#start").hide();
     displayQuestion();
     $(".container").addClass("bg-white");
+    $(".container").addClass("pt-3");
+  
     $(".timer").attr("id", "timer");
     $("#timer").text("Time: " + time);
   });
@@ -81,7 +83,7 @@ $(document).ready(function() {
 
     $(".question").append("<p class ='q1' >" + questions[0].question + "</p>");
     $(".input-group").append(
-      "<div class='input-group-prepend'> <div class='input-group-text rounded-0 bg-white '> <input type='radio' name='one'  value='0'><p class='anwsers' id='anwser1'></p><input type='radio' name='one' value='1'><p class='anwsers' id='anwser2'></p><input type='radio' name='one'  value='1'><p class='anwsers' id='anwser3'></p><input type='radio' name ='one' value='1'> <p class='anwsers' id='anwser4'></p></div> </div>"
+      "<div class='input-group-prepend'> <div class='input-group-text bg-white border-white '> <input type='radio' name='one'  value='0'><p class='anwsers' id='anwser1'></p><input type='radio' name='one' value='1'><p class='anwsers' id='anwser2'></p><input type='radio' name='one'  value='1'><p class='anwsers' id='anwser3'></p><input type='radio' name ='one' value='1'> <p class='anwsers' id='anwser4'></p></div> </div>"
     );
     $("#anwser1").text(questions[0].choices[0]);
     $("#anwser2").text(questions[0].choices[1]);
@@ -90,7 +92,7 @@ $(document).ready(function() {
     //question2
     $(".question2").append("<p class ='q1' >" + questions[1].question + "</p>");
     $(".input-group2").append(
-      " <div class='input-group-prepend'>  <div class='input-group-text rounded-0 bg-white '> <input type='radio' name='two'  value='1'><p class='anwsers' id='anwser5'></p><input type='radio' name='two' value='0'><p class='anwsers' id='anwser6'></p><input type='radio' name='two'  value='1'><p class='anwsers' id='anwser7'></p><input type='radio' name ='two' value='1'> <p class='anwsers' id='anwser8'></p></div> </div>"
+      " <div class='input-group-prepend'>  <div class='input-group-text rounded-0 bg-white border-white  '> <input type='radio' name='two'  value='1'><p class='anwsers' id='anwser5'></p><input type='radio' name='two' value='0'><p class='anwsers' id='anwser6'></p><input type='radio' name='two'  value='1'><p class='anwsers' id='anwser7'></p><input type='radio' name ='two' value='1'> <p class='anwsers' id='anwser8'></p></div> </div>"
     );
     $("#anwser5").text(questions[1].choices[0]);
     $("#anwser6").text(questions[1].choices[1]);
@@ -100,7 +102,7 @@ $(document).ready(function() {
     //question3
     $(".question3").append("<p class ='q1' >" + questions[2].question + "</p>");
     $(".input-group3").append(
-      " <div class='input-group-prepend'> <div class='input-group-text rounded-0 bg-white '> <input type='radio' name='three'  value='1'><p class='anwsers' id='anwser9'></p><input type='radio' name='three' value='1'><p class='anwsers' id='anwser10'></p><input type='radio' name='three'  value='1'><p class='anwsers' id='anwser11'></p><input type='radio' name ='three' value='0'> <p class='anwsers' id='anwser12'></p></div> </div>"
+      " <div class='input-group-prepend'> <div class='input-group-text rounded-0 bg-white border-white '> <input type='radio' name='three'  value='1'><p class='anwsers' id='anwser9'></p><input type='radio' name='three' value='1'><p class='anwsers' id='anwser10'></p><input type='radio' name='three'  value='1'><p class='anwsers' id='anwser11'></p><input type='radio' name ='three' value='0'> <p class='anwsers' id='anwser12'></p></div> </div>"
     );
 
     $("#anwser9").text(questions[2].choices[0]);
@@ -111,7 +113,7 @@ $(document).ready(function() {
     //question4
     $(".question4").append("<p class ='q1' >" + questions[3].question + "</p>");
     $(".input-group4").append(
-      " <div class='input-group-prepend'> <div class='input-group-text rounded-0 bg-white '> <input type='radio' name='four'  value='1'><p class='anwsers' id='anwser13'></p><input type='radio' name='four' value='1'><p class='anwsers' id='anwser14'></p><input type='radio' name='four'  value='0'><p class='anwsers' id='anwser15'></p><input type='radio' name ='four' value='1'> <p class='anwsers' id='anwser16'></p></div> </div>"
+      " <div class='input-group-prepend'> <div class='input-group-text rounded-0 border-white bg-white '> <input type='radio' name='four'  value='1'><p class='anwsers' id='anwser13'></p><input type='radio' name='four' value='1'><p class='anwsers' id='anwser14'></p><input type='radio' name='four'  value='0'><p class='anwsers' id='anwser15'></p><input type='radio' name ='four' value='1'> <p class='anwsers' id='anwser16'></p></div> </div>"
     );
     $("#anwser13").text(questions[3].choices[0]);
     $("#anwser14").text(questions[3].choices[1]);
@@ -121,7 +123,7 @@ $(document).ready(function() {
     //question5
     $(".question5").append("<p class ='q1' >" + questions[4].question + "</p>");
     $(".input-group5").append(
-      " <div class='input-group-prepend'> <div class='input-group-text rounded-0  bg-white '> <input type='radio' name='five'  value='0'><p class='anwsers' id='anwser17'></p><input type='radio' name='five' value='1'><p class='anwsers' id='anwser18'></p><input type='radio' name='five'  value='1'><p class='anwsers' id='anwser19'></p><input type='radio' name ='five' value='1'> <p class='anwsers' id='anwser20'></p></div> </div>"
+      " <div class='input-group-prepend'> <div class='input-group-text rounded-0  bg-white border-white '> <input type='radio' name='five'  value='0'><p class='anwsers' id='anwser17'></p><input type='radio' name='five' value='1'><p class='anwsers' id='anwser18'></p><input type='radio' name='five'  value='1'><p class='anwsers' id='anwser19'></p><input type='radio' name ='five' value='1'> <p class='anwsers' id='anwser20'></p></div> </div>"
     );
     $("#anwser17").text(questions[4].choices[0]);
     $("#anwser18").text(questions[4].choices[1]);
@@ -131,7 +133,7 @@ $(document).ready(function() {
     //question6
     $(".question6").append("<p class ='q1' >" + questions[5].question + "</p>");
     $(".input-group6").append(
-      " <div class='input-group-prepend'> <div class='input-group-text rounded-0 bg-white '> <input type='radio' name='six'  value='0'><p class='anwsers' id='anwser21'></p><input type='radio' name='six' value='1'><p class='anwsers' id='anwser22'></p><input type='radio' name='six'  value='1'><p class='anwsers' id='anwser23'></p><input type='radio' name ='six' value='1'> <p class='anwsers' id='anwser24'></p></div> </div>"
+      " <div class='input-group-prepend'> <div class='input-group-text rounded-0 bg-white border-white'> <input type='radio' name='six'  value='0'><p class='anwsers' id='anwser21'></p><input type='radio' name='six' value='1'><p class='anwsers' id='anwser22'></p><input type='radio' name='six'  value='1'><p class='anwsers' id='anwser23'></p><input type='radio' name ='six' value='1'> <p class='anwsers' id='anwser24'></p></div> </div>"
     );
 
     $("#anwser21").text(questions[5].choices[0]);
@@ -141,7 +143,7 @@ $(document).ready(function() {
     //question7
     $(".question7").append("<p class ='q1' >" + questions[6].question + "</p>");
     $(".input-group7").append(
-      " <div class='input-group-prepend'> <div class='input-group-text rounded-0  bg-white '> <input type='radio' name='seven'  value='1'><p class='anwsers' id='anwser25'></p><input type='radio' name='seven' value='0'><p class='anwsers' id='anwser26'></p><input type='radio' name='seven'  value='1'><p class='anwsers' id='anwser27'></p><input type='radio' name ='seven' value='1'> <p class='anwsers' id='anwser28'></p></div> </div>"
+      " <div class='input-group-prepend'> <div class='input-group-text rounded-0  bg-white border-white'> <input type='radio' name='seven'  value='1'><p class='anwsers' id='anwser25'></p><input type='radio' name='seven' value='0'><p class='anwsers' id='anwser26'></p><input type='radio' name='seven'  value='1'><p class='anwsers' id='anwser27'></p><input type='radio' name ='seven' value='1'> <p class='anwsers' id='anwser28'></p></div> </div>"
     );
 
     $("#anwser25").text(questions[6].choices[0]);
@@ -152,7 +154,7 @@ $(document).ready(function() {
     //question 8 and submit button
     $(".question8").append("<p class ='q1' >" + questions[7].question + "</p>");
     $(".input-group8").append(
-      " <div class='input-group-prepend'> <div class='input-group-text rounded-0  bg-white '> <input type='radio' name='eight'  value='0'><p class='anwsers' id='anwser29'></p><input type='radio' name='eight' value='1'><p class='anwsers' id='anwser30'></p><input type='radio' name='eight'  value='1'><p class='anwsers' id='anwser31'></p><input type='radio' name ='eight' value='1'> <p class='anwsers' id='anwser32'></p></div> </div>"
+      " <div class='input-group-prepend'> <div class='input-group-text rounded-0  bg-white border-white '> <input type='radio' name='eight'  value='0'><p class='anwsers' id='anwser29'></p><input type='radio' name='eight' value='1'><p class='anwsers' id='anwser30'></p><input type='radio' name='eight'  value='1'><p class='anwsers' id='anwser31'></p><input type='radio' name ='eight' value='1'> <p class='anwsers' id='anwser32'></p></div> </div>"
     );
     $("#anwser29").text(questions[7].choices[0]);
     $("#anwser30").text(questions[7].choices[1]);
